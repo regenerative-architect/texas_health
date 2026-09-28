@@ -1,0 +1,7 @@
+{
+  "name":"texas-health-os-optional-trystero-ws-relay",
+  "private":true,
+  "type":"module",
+  "scripts":{"start":"node server.mjs"},
+  "dependencies":{"@trystero-p2p/ws-relay":"0.25.3"}
+}

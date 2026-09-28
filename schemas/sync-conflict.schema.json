@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/txh/sync-conflict.schema.json",
+  "title":"Texas Health OS P2P Sync Conflict",
+  "type":"object",
+  "required":["id","store","recordId","local","incoming","createdAt","status"],
+  "properties":{
+    "id":{"type":"string"},"store":{"type":"string"},"recordId":{"type":"string"},"workspaceId":{"type":"string"},
+    "local":{"type":"object"},"incoming":{"type":"object"},"peerId":{"type":"string"},"createdAt":{"type":"string"},"status":{"enum":["unresolved","resolved"]}
+  }
+}

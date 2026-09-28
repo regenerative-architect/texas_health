@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 2,
+  "retrievedAt": "2026-09-28",
+  "sources": [
+    {
+      "id": "txhhs-nemt",
+      "publisher": "Texas Health and Human Services",
+      "title": "Nonemergency Medical Transportation Program",
+      "url": "https://www.hhs.texas.gov/services/health/medicaid-chip/programs/medical-transportation-program",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Medicaid/eligible-program transport navigation"
+    },
+    {
+      "id": "dshs-hpsa",
+      "publisher": "Texas DSHS / Texas Primary Care Office",
+      "title": "Health Professional Shortage Area Designations",
+      "url": "https://www.dshs.texas.gov/center-health-statistics/texas-primary-care-office-tpco/shortage-area-designations/health-professional-shortage-area-designations",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Primary care, dental and mental-health workforce planning"
+    },
+    {
+      "id": "dshs-school",
+      "publisher": "Texas DSHS",
+      "title": "School and Childcare",
+      "url": "https://www.dshs.texas.gov/immunizations/school",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Current school-health immunization requirements/materials"
+    },
+    {
+      "id": "dshs-maternal",
+      "publisher": "Texas DSHS",
+      "title": "Maternal Health in Texas",
+      "url": "https://www.dshs.texas.gov/maternal-child-health/healthy-texas-mothers-babies/maternal-health-texas",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Maternal-health systems and program navigation"
+    },
+    {
+      "id": "hrsa-find",
+      "publisher": "HRSA",
+      "title": "Find a Health Center",
+      "url": "https://findahealthcenter.hrsa.gov/",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Live",
+      "use": "Health-center discovery; verify current services and availability"
+    },
+    {
+      "id": "cms-price",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "title": "Hospital Price Transparency",
+      "url": "https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Recent",
+      "use": "Hospital price-transparency rules and tools"
+    },
+    {
+      "id": "medicare-msp",
+      "publisher": "Medicare / CMS",
+      "title": "Medicare Savings Programs",
+      "url": "https://www.medicare.gov/basics/costs/help/medicare-savings-programs",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Recent",
+      "use": "Cost-assistance education; state determines eligibility"
+    },
+    {
+      "id": "cdc-heat",
+      "publisher": "CDC",
+      "title": "About Heat and Your Health",
+      "url": "https://www.cdc.gov/heat-health/about/index.html",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Recent",
+      "use": "Heat-health planning"
+    },
+    {
+      "id": "tceq-air",
+      "publisher": "Texas Commission on Environmental Quality",
+      "title": "Air Quality",
+      "url": "https://www.tceq.texas.gov/airquality",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live/periodic",
+      "use": "Environmental-health context"
+    },
+    {
+      "id": "tceq-water",
+      "publisher": "Texas Commission on Environmental Quality",
+      "title": "Drinking Water",
+      "url": "https://www.tceq.texas.gov/drinkingwater",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live/periodic",
+      "use": "Public drinking-water context"
+    },
+    {
+      "id": "txdot-multimodal",
+      "publisher": "Texas Department of Transportation",
+      "title": "Multimodal transportation programs",
+      "url": "https://www.txdot.gov/projects/planning/utp/multimodal-programs.html",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Rural and accessibility transport planning"
+    },
+    {
+      "id": "webllm",
+      "publisher": "MLC AI",
+      "title": "WebLLM Documentation",
+      "url": "https://webllm.mlc.ai/docs/",
+      "evidenceClass": "C",
+      "geography": "Software",
+      "freshness": "Recent",
+      "use": "Optional in-browser local model runtime"
+    },
+    {
+      "id": "tx-bdo-bead",
+      "publisher": "Texas Broadband Development Office / Texas Comptroller",
+      "title": "Broadband Equity, Access, and Deployment (BEAD) Program",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/bead/",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "Broadband deployment, community-anchor and telehealth-readiness context"
+    },
+    {
+      "id": "hhsc-rural-peds-teleconnect",
+      "publisher": "Texas Health and Human Services Commission",
+      "title": "SFY 2026 Pediatric Tele-Connectivity Resource Program for Rural Texas",
+      "url": "https://resources.hhs.texas.gov/rfa/hhs0017228",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Historical/current program record",
+      "use": "Rural pediatric telemedicine connectivity planning"
+    },
+    {
+      "id": "dshs-chw",
+      "publisher": "Texas DSHS",
+      "title": "Community Health Worker Program",
+      "url": "https://www.dshs.texas.gov/community-health-worker",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "CHW/promotora role, training and certification"
+    },
+    {
+      "id": "dshs-chw-competencies",
+      "publisher": "Texas DSHS",
+      "title": "CHW Core Competencies",
+      "url": "https://www.dshs.texas.gov/community-health-worker/chw-core-competencies",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "2026 CHW competency framework"
+    },
+    {
+      "id": "tx-health-data",
+      "publisher": "Texas DSHS",
+      "title": "Texas Health Data",
+      "url": "https://healthdata.dshs.texas.gov/",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live/periodic",
+      "use": "Maternal, infant and other public-health dashboards"
+    },
+    {
+      "id": "hhsc-crisis",
+      "publisher": "Texas Health and Human Services",
+      "title": "Mental Health Crisis Services",
+      "url": "https://hhs.texas.gov/services/mental-health-substance-use/mental-health-crisis-services",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Recent",
+      "use": "988, 2-1-1 and local mental/behavioral health authority crisis navigation"
+    },
+    {
+      "id": "trystero-0253",
+      "publisher": "Trystero / GitHub",
+      "title": "Trystero 0.25.x documentation and 0.25.3 release",
+      "url": "https://github.com/dmotz/trystero",
+      "evidenceClass": "C",
+      "geography": "Software",
+      "freshness": "Pinned",
+      "use": "Decentralized peer discovery and WebRTC collaboration implementation"
+    },
+    {
+      "id": "webllm-worker",
+      "publisher": "MLC AI",
+      "title": "WebLLM Advanced Usage — Web Workers",
+      "url": "https://webllm.mlc.ai/docs/user/advanced_usage.html",
+      "evidenceClass": "C",
+      "geography": "Software",
+      "freshness": "Recent",
+      "use": "Dedicated-worker browser-local inference architecture"
+    },
+    {
+      "id": "hhsc-services-directory",
+      "publisher": "Texas Health and Human Services",
+      "title": "Where Can I Find Services?",
+      "url": "https://resources.hhs.texas.gov/pages/find-services",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live",
+      "use": "County/ZIP aging, disability, behavioral-health and IDD service navigation"
+    },
+    {
+      "id": "tx-hicap",
+      "publisher": "Texas Health and Human Services",
+      "title": "Medicare / Texas Health Information, Counseling and Advocacy Program",
+      "url": "https://hhs.texas.gov/services/health/medicare",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live",
+      "use": "Free Medicare benefits counseling and navigation"
+    },
+    {
+      "id": "hrsa-health-centers",
+      "publisher": "Health Resources and Services Administration",
+      "title": "Get Health Care / Health Centers",
+      "url": "https://www.hrsa.gov/get-health-care",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Recent",
+      "use": "Uninsured/underinsured primary and dental care; sliding-fee health centers"
+    },
+    {
+      "id": "cms-bill-rights",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "title": "Know Your Medical Bill Rights",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-medical-bill-rights",
+      "evidenceClass": "A",
+      "geography": "United States",
+      "freshness": "Recent",
+      "use": "No Surprises Act and good-faith-estimate billing protections"
+    },
+    {
+      "id": "hhsc-disability",
+      "publisher": "Texas Health and Human Services",
+      "title": "Disability Services",
+      "url": "https://hhs.texas.gov/services/disability/",
+      "evidenceClass": "A",
+      "geography": "Texas",
+      "freshness": "Live",
+      "use": "Disability navigation and Early Childhood Intervention pathways"
+    },
+    {
+      "id": "webllm-worker-docs",
+      "publisher": "MLC AI",
+      "title": "WebLLM Advanced Use Cases — Web Workers and IndexedDB cache",
+      "url": "https://webllm.mlc.ai/docs/user/advanced_usage.html",
+      "evidenceClass": "C",
+      "geography": "Software",
+      "freshness": "Recent",
+      "use": "Dedicated Web Worker inference and IndexedDB model-cache architecture"
+    }
+  ]
+}

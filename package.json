@@ -1,0 +1,15 @@
+{
+  "name": "texas-health-access-navigator-os",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/static-server.mjs",
+    "test": "node tests/validate.mjs && node tests/broadcastchannel-smoke.mjs",
+    "legacy:http": "node legacy/http-sync/server.mjs",
+    "legacy:ws-relay": "npm --prefix legacy/ws-relay start"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

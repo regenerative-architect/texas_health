@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/txh/workspace.schema.json",
+  "title":"Texas Health OS Shared Workspace Snapshot",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schemaVersion","workspace","projects","tasks","comments","decisions","evidence","meta"],
+  "properties":{
+    "schemaVersion":{"type":"integer","const":2},
+    "workspace":{"type":["object","null"]},
+    "projects":{"type":"array","maxItems":500,"items":{"type":"object"}},
+    "tasks":{"type":"array","maxItems":1000,"items":{"type":"object"}},
+    "comments":{"type":"array","maxItems":2000,"items":{"type":"object"}},
+    "decisions":{"type":"array","maxItems":1000,"items":{"type":"object"}},
+    "evidence":{"type":"array","maxItems":2000,"items":{"type":"object"}},
+    "meta":{"type":"object","required":["workspaceId","generatedAt","sender"],"properties":{"workspaceId":{"type":"string"},"generatedAt":{"type":"string"},"sender":{"type":"string"}}}
+  }
+}

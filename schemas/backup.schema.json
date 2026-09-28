@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Texas Health Access Navigator OS Backup",
+  "type":"object",
+  "required":["app","version","exportedAt","stores"],
+  "properties":{"app":{"const":"Texas Health Access Navigator OS"},"version":{"type":"string"},"exportedAt":{"type":"string"},"stores":{"type":"object"}}
+}

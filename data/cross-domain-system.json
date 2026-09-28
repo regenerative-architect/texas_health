@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "nodes": ["Health","Housing","Food","Water","Energy","Mobility","Connectivity","Education","Resilience"],
+  "edges": [
+    {"from":"Energy","to":"Health","mechanism":"cooling, medication refrigeration, powered medical devices, facility operations"},
+    {"from":"Water","to":"Health","mechanism":"drinking-water safety, sanitation, clinical/facility operations"},
+    {"from":"Mobility","to":"Health","mechanism":"travel time, accessible transportation, referral and appointment completion"},
+    {"from":"Connectivity","to":"Health","mechanism":"telehealth, portals, benefits applications, emergency communication"},
+    {"from":"Housing","to":"Health","mechanism":"stability, indoor conditions, cooling, proximity to services"},
+    {"from":"Food","to":"Health","mechanism":"household affordability and continuity of nutrition support"},
+    {"from":"Education","to":"Health","mechanism":"school nurses, health literacy, screenings, referral handoffs"},
+    {"from":"Resilience","to":"Health","mechanism":"continuity during heat, storms, flood, wildfire, outages and evacuation"}
+  ],
+  "interpretation":"These are system dependencies for planning, not individual causal diagnoses."
+}

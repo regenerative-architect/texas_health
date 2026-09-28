@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-09-28",
+  "scope": "Texas health access and cross-domain planning. These are operational facts/program descriptions, not individualized medical advice or guaranteed eligibility.",
+  "facts": [
+    {
+      "id": "nemt-request-window",
+      "classification": "FACT",
+      "topic": "transportation",
+      "statement": "Texas HHSC states routine nonemergency medical transportation requests should generally be made at least two workdays before an appointment, or five days before an appointment outside the county; specified same-day situations may qualify.",
+      "sourceId": "txhhs-nemt",
+      "limitations": "Program eligibility and scheduling details must be verified for the individual and health plan."
+    },
+    {
+      "id": "nemt-options",
+      "classification": "FACT",
+      "topic": "transportation",
+      "statement": "Texas HHSC lists public transportation, taxi/van service, and commercial transit among possible NEMT ride types, and describes gas assistance and some lodging/meal support under program rules.",
+      "sourceId": "txhhs-nemt",
+      "limitations": "Not all options apply to every beneficiary or trip."
+    },
+    {
+      "id": "hpsa-purpose",
+      "classification": "FACT",
+      "topic": "workforce",
+      "statement": "Texas DSHS and HRSA use HPSA and MUA/P designations to identify shortages and target certain workforce and access programs.",
+      "sourceId": "dshs-hpsa",
+      "limitations": "Designation does not measure every dimension of real-world appointment access."
+    },
+    {
+      "id": "chw-paid-certification",
+      "classification": "FACT",
+      "topic": "workforce",
+      "statement": "Texas DSHS requires certification for CHWs/promotores who are compensated for CHW services; DSHS describes training- and experience-based certification pathways.",
+      "sourceId": "dshs-chw",
+      "limitations": "Verify current application and renewal requirements directly with DSHS."
+    },
+    {
+      "id": "chw-competencies-2026",
+      "classification": "FACT",
+      "topic": "workforce",
+      "statement": "Updated Texas CHW core competencies became effective February 1, 2026, and DSHS required training-center curricula to align by August 1, 2026.",
+      "sourceId": "dshs-chw-competencies",
+      "limitations": "Training-center implementation and course availability can change."
+    },
+    {
+      "id": "bead-approved",
+      "classification": "FACT",
+      "topic": "broadband",
+      "statement": "Texas's BEAD Final Proposal was approved December 4, 2025. The Broadband Development Office reports 22 selected applicants, more than 240,000 broadband-serviceable locations, more than 2,700 community anchor institutions, $1.2 billion in federal grant funds and $177 million in state match.",
+      "sourceId": "tx-bdo-bead",
+      "limitations": "Awards and approved locations do not prove that service is already constructed, activated, affordable or adequate for a specific telehealth use."
+    },
+    {
+      "id": "rural-pediatric-teleconnect",
+      "classification": "FACT",
+      "topic": "telehealth",
+      "statement": "Texas HHSC's SFY 2026 Pediatric Tele-Connectivity Resource Program for Rural Texas was designed to connect rural hospitals and rural health clinics with pediatric specialists/subspecialists or eligible higher-education partners in the Texas Child Mental Health Care Consortium.",
+      "sourceId": "hhsc-rural-peds-teleconnect",
+      "limitations": "The RFA is a program record; current award and operational status should be verified separately."
+    },
+    {
+      "id": "price-transparency-2026",
+      "classification": "FACT",
+      "topic": "affordability",
+      "statement": "CMS's 2026 hospital price-transparency requirements added median, 10th-percentile and 90th-percentile allowed amounts plus counts for certain percentage/algorithm-based negotiated charges, with enforcement of new/revised 2026 requirements beginning April 1, 2026.",
+      "sourceId": "cms-price",
+      "limitations": "Published standard charges are not a guaranteed patient bill and may not capture all individual coverage details."
+    },
+    {
+      "id": "crisis-pathways",
+      "classification": "FACT",
+      "topic": "behavioral health",
+      "statement": "Texas HHSC points people to 988, Texas 2-1-1 and 24/7 Local Mental Health/Behavioral Health Authority crisis lines for behavioral-health crisis navigation.",
+      "sourceId": "hhsc-crisis",
+      "limitations": "Immediate threats to life or safety require emergency services."
+    },
+    {
+      "id": "maternal-dashboard",
+      "classification": "FACT",
+      "topic": "maternal health",
+      "statement": "Texas DSHS Health Data publishes maternal-health dashboards covering maternal mortality, pregnancy planning, maternal mental health and physical-health factors, with documented source and methodology notes.",
+      "sourceId": "tx-health-data",
+      "limitations": "Dashboard years and indicator availability vary; use the displayed data vintage for analysis."
+    },
+    {
+      "id": "environment-layers",
+      "classification": "FACT",
+      "topic": "environment",
+      "statement": "TCEQ maintains separate official Texas air-quality and public drinking-water information systems that can be used as environmental context layers in community health planning.",
+      "sourceId": "tceq-air",
+      "limitations": "Environmental measurements do not establish an individual's medical diagnosis."
+    },
+    {
+      "id": "webrtc-turn",
+      "classification": "FACT",
+      "topic": "multiplayer",
+      "statement": "Trystero documents TURN as a relay fallback when direct WebRTC peer connections cannot be established under some network conditions; configured TURN traffic remains part of the WebRTC encrypted transport path.",
+      "sourceId": "trystero-0253",
+      "limitations": "TURN requires an operator/service and credentials/configuration; this bundle does not ship hidden TURN infrastructure."
+    },
+    {
+      "id": "hrsa-health-centers-access",
+      "classification": "FACT",
+      "topic": "uninsured care",
+      "statement": "HRSA states that Health Center Program clinics provide primary medical and dental care to people whether or not they have insurance and adjust fees using a sliding scale based on ability to pay.",
+      "sourceId": "hrsa-health-centers",
+      "limitations": "Services, hours, capacity and appointment availability vary by clinic and must be verified."
+    },
+    {
+      "id": "hhsc-service-finder",
+      "classification": "FACT",
+      "topic": "aging/disability navigation",
+      "statement": "Texas HHSC provides a county/ZIP service finder for AAA, ADRC, LMHA and LIDDA offices and lists 855-937-2372 for help identifying services.",
+      "sourceId": "hhsc-services-directory",
+      "limitations": "Office coverage and contact details can change; verify the live directory."
+    },
+    {
+      "id": "texas-hicap-help",
+      "classification": "FACT",
+      "topic": "Medicare",
+      "statement": "Texas HHSC lists the Texas Medicare Help Line at 800-252-9240 and HICAP as a source of free Medicare benefits counseling.",
+      "sourceId": "tx-hicap",
+      "limitations": "Counseling supports navigation; it does not make plan decisions for users."
+    },
+    {
+      "id": "cms-bill-dispute",
+      "classification": "FACT",
+      "topic": "billing",
+      "statement": "CMS says a federal patient-provider dispute process may be available for eligible uninsured/self-pay bills that are at least $400 above a good-faith estimate, subject to program rules and exceptions.",
+      "sourceId": "cms-bill-rights",
+      "limitations": "Not all services/plans are covered by the same protections; ground ambulance bills are an important federal exception."
+    },
+    {
+      "id": "eci-age-range",
+      "classification": "FACT",
+      "topic": "child/disability",
+      "statement": "Texas HHS describes Early Childhood Intervention as serving children from birth up to 36 months with qualifying developmental delay, disability or certain diagnosed conditions.",
+      "sourceId": "hhsc-disability",
+      "limitations": "The OS does not assess developmental eligibility or diagnose a child."
+    }
+  ]
+}
